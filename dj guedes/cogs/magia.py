@@ -46,7 +46,7 @@ class config_musica(commands.Cog):
         else:
             self.tocando = False
 
-    # infinite loop checking 
+    # loop para tocar a musica
     async def tocar_musica(self):
         if len(self.fila_musica) > 0:
             self.tocando = True
